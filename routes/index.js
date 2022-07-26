@@ -1,4 +1,8 @@
 const router = require('express').Router()
+const EcommerceStore = require('../utils/ecommerce_store')
+
+let Store = new EcommerceStore()
+const CustomerSession = new Map()
 
 router.route('/meta_wa_callbackurl')
   .get((req, res) => {

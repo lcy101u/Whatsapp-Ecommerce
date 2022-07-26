@@ -37,6 +37,8 @@ module.exports = class EcommerceStore {
       `/products/category/${categoryId}?limit=10`
     );
   }
+
+  //generatePDFInvoice: receives a piece of text and a file path. Then creates a PDF.
   generatePDFInvoice({ order_details, file_path }) {
     const doc = new PDFDocument();
     doc.pipe(fs.createWriteStream(file_path));
@@ -46,6 +48,8 @@ module.exports = class EcommerceStore {
     return;
   }
 
+  //generateRandomGeoLocation: simply returns a random geolocation.
+  //This method will be useful when we send our shop’s order pick-up location to a customer who wants to pick up their item.
   generateRandomGeoLocation() {
     let storeLocations = [
       {
