@@ -7,7 +7,7 @@ const development = {
   ...process.env,
   NODE_ENV: process.env.NODE_ENV || 'development',
   PORT: '9000',
-  Meta_WA_accessToken: 'EAAK3fgPXUIMBAKVlMm5HSbk3UbagX1p7UqNvRQEEYmfEZC2TModSITURrmFrdG2y1XFDXeUOLE5JphOPRM7yqz98Yrs38rj4mX7tFJksDE1jcEPWNZAo28ZBNghcgZCstRm7hcKy0XpZA6NGXw5bhAeu2nCwkBdTTQb3WtEXlZCRuZBc27McY2ss8qCCygZBNbZBsdJRlYci33QZDZD',
+  Meta_WA_accessToken: 'EAAK3fgPXUIMBAHuIBvfXEzpHoVOzWYzRbNa8MqAtSYXjOpZAvhxv48ZABpixX8902hcwoge4m3sVrcV7KIKvFj0TcrnZAxDrQVqazqxvJKiAdETMzZACSekVlyKWSv1E6ynnR7U6EMXFEiziELtUubuZAZAZAmrsPh8HNjUb8K0pFDoAviIuKRJPCtFqaetfZBjpwM8iA6FwHgZDZD',
   Meta_WA_SenderPhoneNumberId: '101979299278871',
   Meta_WA_wabaId: '108671205263839',
   Meta_WA_VerifyToken: 'FakeShop'
